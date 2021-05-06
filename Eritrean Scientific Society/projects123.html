@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Latest Updates</title>
+</head>
+
+<body style="background-image: url(Images/projects.jpg);">
+    <div class="container">
+        <div class="headsec" style="background-image: url(Images/head.jpg);">
+            <header>
+                <img src="Images/logotop.png" alt="our logo" class="logo">
+                <nav>
+                    <a href="#" class="show-mobile"><img src="Images/ham.png" alt="" class="menu" id="menu"></a>
+                    <ul class="show-desktop hide-mobile" id="nav">
+                        <a href="#"><img src="Images/exit.png" alt="exit menu" class=" exit show-mobile" id="exit"></a>
+                        <li><a href="index.html" class="navlinks">Home</a></li>
+                        <li><a href="aboutus.html" class="navlinks">AboutUs</a></li>
+                        <li><a href="projects.html" class="active-nav-link navlinks">Projects</a></li>
+                        <li><a href="faqs.html" class="navlinks">FAQs</a></li>
+
+                    </ul>
+                </nav>
+            </header>
+            <section>
+                <p class="title">Latest Updates</p>
+               
+            </section>
+        </div>
+    </div>
+    <div class="projects">
+        <div class="first-pro">
+            <br> <h1>THE THANK YOU ECONOMY BY GARY VAYNERCHUCK</h1>
+             <p class="newsone">The Thank You Economy by Gary Veynerchuck is an insight into the changing
+                 platform of marketing. Vaynerchuck emphasises the importance of social media in
+                 any business venture. He debunks common criticisms and offers useful strategies.
+                 Vaynerchuck explains just how important company culture and employee
+                 happiness is in the road to running a successful business. The Thank You Economy
+                 has an entire section dedicated to real life examples of companies, putting the
+                 Thank You Economy into action, how using social media transformed their
+                 business. <a href="proone.html" class="pagecont">Continue Reading...</a></p>
+
+         </div>
+         <div class="second-pro">
+            <br> <h1>WORKING SMARTER NOT HARDER BY TIMO KINDER</h1>
+             <p class="newstwo"> Working Smarter Not Harder by Timo Kinder is a quick read that identifies 18
+                 different ways to improve your working day. Tips range from learning new valuable
+                 computer skills to understanding your own working patterns and rhythms. An easy to read guide that will help anyone increase their productivity one step at a time! <br>
+                 “To have a solid foundation for personal productivity, the following blocks must be
+                 in place: proper mindset, physical activity, optimum nutrition & enough sleep.” <a href="protwo.html" class="pagecont">Continue Reading...</a></p>
+         </div>
+         <div class="third-pro">
+            <br> <h1>NEVER EAT ALONE BY KEITH FERRAZZI</h1>
+             <p class="newsthree"> Never Eat Alone by Keith Ferrazzi is a guide to establishing and managing some of
+                 the most important relationships in your business life. These relationships can be
+                 used to open up new doors and opportunities, achieve great success and reach
+                 your goals. Ferrazzi emphasises the importance of networking, meeting new
+                 people and reaching out to people beyond your usual social circle. <a href="prothree.html" class="pagecont">Continue Reading...</a></p>
+         </div>
+    </div>
+    <div class="bottom" style="background-image: url(Images/bottom.jpg);">
+        <img src="Images/logo.png" alt="our logo" class="lower-logo">
+        <p class="policy">This webpage is an acdemic and scientific page,
+            aiming to help students in all High School and College Students as well as Graduates. The dream and work effort
+            of this webpage is to motivate and help young Eritreans to
+            follow their passion and become great through sharing.
+            Because We believe the greatest wealth of knowledge is acquired through
+            unity, discussion and sharing. No matter what, It's our growth that will make our society and our nation
+            the strongest and better one. copyright &copy; 2020
+            <br>
+            <br>For any information please Contact us on</p>
+        <div class="abtus">
+            <a href="#"><img src="Images/gmail.png" alt="our contact address" class="gmail"></a>
+            <a href="mailto:eriscisociety@gmail.com">eriscisociety@gmail.com</a>
+        </div>
+    
+    </div>
+    <script>
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+        menu.addEventListener('click', function (e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+        exit.addEventListener('click', function (e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+    </script>
+
+</body>
+
+</html>
